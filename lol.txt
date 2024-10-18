@@ -1,0 +1,4 @@
+Clauses: Statements about relationships or properties. Examples: male(john). and parent(john, mike)..
+Facts: Specific, fixed relationships like male(john) and parent(mary, lisa).
+Predicates: Properties or relations like male/1, parent/2, and father/2.
+Rules: Logical derivations of relationships, such as father(X, Y) :- male(X), parent(X, Y).
